@@ -7,3 +7,4 @@ def big_abc(string):
 def big_first_abc(string):
     return ' '.join(word[0].upper() + word[1:] for word in string.split())
 
+"""добавь вункцию по уменьшению символов в строчные"""
